@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sadraddin Abasli - Resume</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="profile.png" alt="Sadraddin Abasli" class="profile-pic" />
+      <section class="contact">
+        <h2>CONTACT</h2>
+        <p>+994 070-360-12-10</p>
+        <p>abaslisedreddin@gmail.com</p>
+        <p>Sumgait City</p>
+      </section>
+      <section class="education">
+        <h2>EDUCATION</h2>
+        <p><strong>2024 - 2028</strong><br>AZERBAIJAN TECHNICAL<br> UNIVERSITY<br>Cybersecurity</p>
+      </section>
+      <section class="skills">
+        <h2>SKILLS</h2>
+        <ul>
+          <li>Project Management</li>
+          <li>Public Relations</li>
+          <li>Time Management</li>
+          <li>Leadership</li>
+          <li>Critical Thinking</li>
+          <li>Network Security</li>
+          <li>Penetration Testing</li>
+          <li>Firewall Management</li>
+        </ul>
+      </section>
+      <section class="languages">
+        <h2>LANGUAGES</h2>
+        <p>English (Pre-intermediate)</p>
+        <p>German (Basic)</p>
+      </section>
+    </aside>
+    <main class="main-content">
+      <header>
+        <h1>SADRADDIN <span>ABASLI</span></h1>
+        <h2>CYBERSECURITY SPECIALIST</h2>
+      </header>
+      <div class="form-box">
+        <h3>Məlumat Əlavə Et</h3>
+        <form id="myForm">
+          <div>
+            <input type="text" id="name" placeholder="Adınız" required autocomplete="off">
+            <span class="error" id="nameError"></span>
+          </div>
+          
+          <div>
+            <input type="email" id="email" placeholder="E-poçt" required autocomplete="off">
+            <span class="error" id="emailError"></span>
+          </div>
+          
+          <div>
+            <input type="text" id="description" placeholder="Qısa təsvir" required>
+            <span class="error" id="descError"></span>
+          </div>
+          
+          <button type="submit">Əlavə Et</button>
+          <button type="button" id="saveBtn">Yadda Saxla</button>
+        </form>
+      </div>
+      <div id="dataList" class="data-list" style="display: none;">
+        <h3>Əlavə Edilmiş Məlumatlar</h3>
+        <div id="items"></div>
+      </div>
+     
+      <section class="profile bolme">
+        <h2>PROFILE</h2>
+        <hr>
+        <div class="content">
+          <p>I have a deep interest in the field of information security. I am specializing in systems protection and security risk management.</p>
+          <input type="text" placeholder="Enter new information">
+          <button class="addData">Add</button>
+        </div>
+      </section>
+      
+      <section class="experience bolme">
+         <h2>WORK EXPERIENCE</h2>
+         <hr>
+         <div class="content">
+           <div class="job">
+            <h3>CyberTech MMC <span>2024 - PRESENT</span></h3>
+            <p>Security Analyst</p>
+            <ul>
+              <li>Threat Detection and Monitoring</li>
+              <li>Incident Response</li>
+              <li>Vulnerability Assessment</li>
+              <li>Risk Assessment and Management</li>
+              <li>Data Protection and Privacy</li>
+            </ul>
+           </div>
+          
+           <div class="job">
+            <h3>SyberSec MMC<span>2023 - 2024</span></h3>
+            <p>Marketing Manager & Specialist</p>
+            <ul>
+              <li>Develop and maintain strong relationships with partners and agencies.</li>
+              <li>Monitor and maintain brand consistency across all marketing materials.</li>
+            </ul>
+           </div>
+           <input type="text" placeholder="Enter new information">
+           <button class="addData">Add</button>
+          </div>      
+      </section>
+      
+      <section class="references bolme">
+         <h2>REFERENCE</h2>
+         <hr>
+         <div class="content">
+           <p><strong>Ali Aliyev</strong> - AzTU / CTO</p>
+           <p><strong>Vali Valiyev</strong> - AzTU / CEO</p>
+           <input type="text" placeholder="Enter new information">
+           <button class="addData">Add</button>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
